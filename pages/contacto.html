@@ -47,32 +47,14 @@
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, incidunt? At, rem? Nostrum iure ratione praesentium at, temporibus doloremque dolorem id iusto enim quo, recusandae laudantium consequatur sed perspiciatis quae?
         </p>
         <section class="texto-izquierda">
-            <form>
-                <fieldset>
-
-                    <legend>Dejanos tus dudas y mensajes</legend>
-
-                    <div>
-                        <!-- campo para correo electronico -->
-                         <label for="correo">Email</label>
-                         <input type="email" id="correo" name="correo" required>
-                    </div>
-
-                    <div>
-                        <!-- campo para msj -->
-                         <label for="msj">Dejanos tus preguntas</label>
-                         <textarea name="msj" id="msj"></textarea>
-                    </div>
-
-                    <div>
-                        <!-- botones -->
-                         <input type="submit" value="Listo">
-                         <input type="reset" value="Eliminar">
-                    </div>
-
-
-                </fieldset>
-            </form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
         </section>
 
         <div class="mapa">
@@ -91,6 +73,13 @@
     </main>
 
     <footer>
+        <div class="listas">
+            <p>Contacto</p>
+            <p>Productos</p>
+            <p>Preguntas frecuentes</p>
+            <p>Sobre nosotros</p>
+            <p>Ayuda</p>
+        </div>
         <p>Todos los derechos reservados</p>
     </footer>
 
