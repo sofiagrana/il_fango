@@ -1,0 +1,100 @@
+/* reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos del header */
+header{
+    background-color: #EDD3B8;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #1B3D1B;
+}
+
+header img{
+    width: 10%;
+
+}
+
+/* estilos del main */
+
+main{
+    text-align: center;
+    padding: 30px;
+}
+
+main h1{
+    margin-bottom: 30px;
+}
+
+main p{
+    margin: 30px;
+}
+
+main .boton{
+    background-color: #1B3D1B;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+main .boton a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+main img{
+    width: 50%;
+}
+
+.productos{
+    width: 20%;
+}
+
+.texto-izquierda{
+    text-align: left;
+}
+
+.mapa{
+    margin-top: 2%;
+    
+}
+
+.container-fluid{
+    background-color: #EDD3B8;
+}
+
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    margin-left: 2.5%;
+}
+
+/* estilos del footer */
+footer{
+    text-align: right;
+    padding: 20px;
+}
+
+
+
