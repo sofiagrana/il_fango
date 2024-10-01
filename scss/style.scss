@@ -1,0 +1,114 @@
+$background:#EDD3B8;
+$background-boton:#1B3D1B;
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos del header */
+header{
+    background-color: $background;
+    padding-bottom: 30px;
+    text-align: left;
+    img{
+        width: 10%;
+    }
+    nav ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-left: 30px;
+            a{
+                text-decoration: none;
+                color: $background-boton;
+            }
+        }
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar-brand{
+        margin-left: 2.5%;
+    }
+    .container-fluid{
+        background-color: $background;
+    }
+}
+
+/* estilos del main */
+
+main{
+
+    text-align: center;
+    padding: 30px;
+    h1{
+        margin-bottom: 30px;
+    }
+    p{
+        margin: 30px;
+    }
+    .btn{
+        background-color: $background-boton;
+    }
+    .boton{
+        background-color:$background-boton;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            color: antiquewhite; 
+        }
+    }
+    img{
+        width: 50%;
+    }
+    .carousel{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .productos{
+        width: 20%;
+    }   
+    .mapa{
+        margin-top: 2%;
+    }
+    .tarjetas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 20px;
+        .card{
+            justify-content: center;
+        }
+        .btn{
+            width: 50%;
+        }
+    }
+}
+.texto-izquierda{
+    text-align: left;
+}
+
+/* estilos del footer */
+footer{
+    text-align: right;
+    padding: 20px;
+    .listas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }    
+}
+
+@media (max-width: 910px) {
+    iframe{
+        max-width: 100%; /* Las imágenes, tablas e iframes no excederán el tamaño del contenedor */
+        height: auto;    /* Mantiene la proporción de las imágenes */
+        display: block;  /* Elimina el espacio en línea alrededor de imágenes y otros elementos */
+    }
+}
+
