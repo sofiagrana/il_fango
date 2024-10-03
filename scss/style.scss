@@ -52,6 +52,10 @@ main{
     .btn{
         background-color: $background-boton;
     }
+    .btn:hover{
+        background-color: $background;
+        color: black;
+    }
     .boton{
         background-color:$background-boton;
         display: inline-block;

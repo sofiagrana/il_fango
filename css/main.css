@@ -50,6 +50,10 @@ main p {
 main .btn {
   background-color: #1B3D1B;
 }
+main .btn:hover {
+  background-color: #EDD3B8;
+  color: black;
+}
 main .boton {
   background-color: #1B3D1B;
   display: inline-block;
