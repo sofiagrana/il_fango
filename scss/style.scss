@@ -1,5 +1,7 @@
 $background:#EDD3B8;
 $background-boton:#1B3D1B;
+@import "mixin.scss" ;
+
 /* reset*/
 *{
     margin: 0;
@@ -42,7 +44,8 @@ header{
 main{
 
     text-align: center;
-    padding: 30px;
+    @include medidas(30);
+
     h1{
         margin-bottom: 30px;
     }
