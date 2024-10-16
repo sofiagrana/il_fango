@@ -1,0 +1,30 @@
+/* estilos del header */
+
+header{
+    background-color: $background;
+    padding-bottom: 30px;
+    text-align: left;
+    img{
+        width: 10%;
+    }
+    nav ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-left: 30px;
+            a{
+                text-decoration: none;
+                color: $background-boton;
+            }
+        }
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar-brand{
+        margin-left: 2.5%;
+    }
+    .container-fluid{
+        background-color: $background;
+    }
+}
